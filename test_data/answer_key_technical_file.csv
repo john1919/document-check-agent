@@ -1,0 +1,11 @@
+id,rule,expected,where_the_evidence_is,why
+TF1,The intended purpose of the device must be described.,MET,Section 3 Intended purpose,Easy
+TF2,A risk analysis must be included.,MET,Section 4 Risk management,Easy
+TF3,Each identified risk must have a control measure.,NOT MET,Table 4.1 row R-03 (battery overheating) has an empty control-measure cell,Planted gap in a table row
+TF4,Test results must not exceed their limits.,NOT MET,Table 5.1 battery compartment 72 °C vs limit 60 °C,Planted gap: number comparison
+TF5,Labelling and instructions for use must be provided.,NOT MET,Section 6 says only 'To be completed',Planted gap: heading exists but no content
+TF6,The manufacturer's name and address must be stated.,MET,Section 1 Manufacturer information,Easy
+TF7,"The document must not claim that the device is ""100% safe"".",MET,No such claim anywhere in the document,Trap: a prohibition rule. Absence here means compliant (MET) - the opposite of a normal 'must contain' rule
+TF8,A clinical evaluation report according to MDR Article 61 must be referenced.,NOT MET,Not referenced. Only clinical validation (ISO 81060-2) appears in Section 5,Trap: clinical validation is not clinical evaluation. Required item absent = NOT MET
+TF9,The applied standards must be listed.,MET,Section 5 first paragraph,Keyword-heavy (IEC 60601-1 etc.)
+TF10,The software safety class must be stated.,MET,Section 7: Class B,Easy

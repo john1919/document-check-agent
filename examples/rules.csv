@@ -1,0 +1,7 @@
+id,rule
+R1,The agreement must specify a start date.
+R2,Invoices must be paid within 30 days.
+R3,The supplier must provide weekend support.
+R4,The agreement must specify a governing law.
+R5,Either party must be able to terminate with 60 days notice.
+R6,The supplier must keep customer information confidential.

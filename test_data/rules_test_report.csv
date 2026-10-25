@@ -1,0 +1,7 @@
+id,rule
+TR1,The report must name the test standard that was used.
+TR2,The test sample must be identified by model and serial number.
+TR3,All tests in the agreed test plan must have been performed.
+TR4,"The report must be reviewed and approved, with a signature and date."
+TR5,The patient leakage current must not exceed 100 µA.
+TR6,The measurement uncertainty must be stated.

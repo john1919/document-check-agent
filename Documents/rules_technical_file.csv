@@ -1,0 +1,11 @@
+id,rule
+TF1,The intended purpose of the device must be described.
+TF2,A risk analysis must be included.
+TF3,Each identified risk must have a control measure.
+TF4,Test results must not exceed their limits.
+TF5,Labelling and instructions for use must be provided.
+TF6,The manufacturer's name and address must be stated.
+TF7,"The document must not claim that the device is ""100% safe""."
+TF8,A clinical evaluation report according to MDR Article 61 must be referenced.
+TF9,The applied standards must be listed.
+TF10,The software safety class must be stated.

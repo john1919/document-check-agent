@@ -1,0 +1,7 @@
+id,rule,expected,where_the_evidence_is,why
+TR1,The report must name the test standard that was used.,MET,Section 2 Test standards,Easy
+TR2,The test sample must be identified by model and serial number.,MET,Table in Section 1: PulseCare BP-200 / PC200-2026-00117,Data in a table
+TR3,All tests in the agreed test plan must have been performed.,NOT MET,Table 4.1 EMC immunity 'Not performed',Planted gap: needs Section 3 and Table 4.1 together
+TR4,"The report must be reviewed and approved, with a signature and date.",NOT MET,Section 6: approval line is blank,Planted gap
+TR5,The patient leakage current must not exceed 100 µA.,MET,Table 4.1: 45 µA vs limit 100 µA,Number check that should pass
+TR6,The measurement uncertainty must be stated.,NOT MET,Not stated anywhere,Required item absent = NOT MET
